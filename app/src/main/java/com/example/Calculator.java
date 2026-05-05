@@ -1,4 +1,4 @@
-package app.src.main.java.com.example;
+package com.example;
 
 public class Calculator {
     public double calculateSumProductRatio(double num1, double num2) {
@@ -6,7 +6,7 @@ public class Calculator {
         double product = num1 * num2;
         return sum / product;
     }
-    public void printResult(double res) {
-        System.out.println("Result: " + res);
+    public void printResult(double result) {
+        System.out.println("Result: " + result);
     }
 }

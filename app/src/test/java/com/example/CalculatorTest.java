@@ -8,11 +8,11 @@ public class CalculatorTest {
 
     @Test
     void testCalc() {
-        assertEquals(5.0/6.0, calculator.calc(2, 3), 0.0001);
+        assertEquals(5.0/6.0, calculator.calculateSumProductRatio(2, 3), 0.0001);
     }
 
     @Test
     void testCalcOtherValues() {
-        assertEquals(1.25, calculator.calc(1, 4), 0.0001);
+        assertEquals(1.25, calculator.calculateSumProductRatio(1, 4), 0.0001);
     }
 }
